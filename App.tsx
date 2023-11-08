@@ -23,7 +23,12 @@ const appStyle = StyleSheet.create({
     marginBottom:50,
     marginRight:100,
     marginTop:20,
-    fontSize:50
+    fontSize:50,
+    borderTopLeftRadius:20,
+    borderTopRightRadius:10,
+    borderBottomLeftRadius:10,
+    borderBottomRightRadius:20,
+    textAlign:"center"
   },
   text2:{
 color:"orange"

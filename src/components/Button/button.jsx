@@ -4,20 +4,21 @@ import React from 'react'
 export default function button() {
   return (
     <View>
-      <Text style={styles.text}>button</Text>
+      <Text style={styles.Text}>1st Practice App</Text>
     </View>
   )
 }
 
 const styles = StyleSheet.create({
     Text:{
-        backgroundColor:"black",
+        backgroundColor:"grey",
         color:"white",
-        fontWeight:"bold",
-        fontFamily:"Times New Roman",
-        alignItems:"center",
-        display:"flex",
-        justifyContent:"center"
+        fontSize:40,
+        textAlign:"center"
+        
+
+        
+        
         
     }
 })
